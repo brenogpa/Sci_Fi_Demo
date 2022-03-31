@@ -14,9 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Game/Level_Dont_Touch/Standard Assets/Utility/ForcedReset.cs
+    - Assets/Game/Scenes.meta
+    - Assets/Game/Scenes/Game.unity
+    - Assets/Game/Scenes/Game.unity.meta
+    - Assets/Game/Scripts.meta
+    - Assets/Game/Scripts/Player.cs
+    - Assets/Game/Scripts/Player.cs.meta
+    - ProjectSettings/ProjectSettings.asset
     - 
-    m_Values: 0101
+    m_Values: 0000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
