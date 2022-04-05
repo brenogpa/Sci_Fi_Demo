@@ -19,8 +19,9 @@ MonoBehaviour:
     - Assets/Game/Scenes/Game/NavMesh.asset
     - Assets/Game/Scenes/Game/NavMesh.asset.meta
     - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/ProjectSettings.asset
     - 
-    m_Values: 010101010101
+    m_Values: 01010101010101
   RevisionSummary: Navigation Mesh
   ChangesSearchValue: 
   SelectedHistoryRevision: 
