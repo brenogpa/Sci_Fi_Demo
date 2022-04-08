@@ -85,6 +85,7 @@ namespace CinemaSuite
 
         #endregion
 
+        [Obsolete]
         public void Awake()
         {
 #if UNITY_5 && !UNITY_5_0
