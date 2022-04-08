@@ -8,9 +8,10 @@ public class Player : MonoBehaviour
     [SerializeField]
     private float _speed = 3.5f;
     private float _gravity = 9.81f;
-
     [SerializeField]
     private GameObject _muzzleFlash;
+    [SerializeField]
+    private GameObject _hitMarkerPrefab;
     
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,8 @@ public class Player : MonoBehaviour
             if (Physics.Raycast(rayOrigin, out hitInfo))
             {
                 Debug.Log("Hit " + hitInfo.transform.name);
+                GameObject hitMarker = Instantiate(_hitMarkerPrefab, hitInfo.point, Quaternion.LookRotation(hitInfo.normal));
+                Destroy(hitMarker, 1f);
             }
         }
         else
