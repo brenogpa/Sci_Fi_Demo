@@ -14,15 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Game/Level_Dont_Touch/Environment_Model/Cinema Suite/About/Editor/CinemaSuiteWelcome.cs
+    - Assets/Game/Level_Dont_Touch/Standard Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+    - Assets/Game/Level_Dont_Touch/Standard Assets/Utility/TimedObjectDestructor.cs
     - Assets/Game/Scenes/Game.meta
     - Assets/Game/Scenes/Game.unity
     - Assets/Game/Scenes/Game/NavMesh.asset
     - Assets/Game/Scenes/Game/NavMesh.asset.meta
+    - Assets/Game/Scripts/Player.cs
+    - Packages/manifest.json
+    - Packages/packages-lock.json
     - ProjectSettings/DynamicsManager.asset
-    - ProjectSettings/ProjectSettings.asset
     - 
-    m_Values: 01010101010101
-  RevisionSummary: Navigation Mesh
+    m_Values: 000000000000000000000000
+  RevisionSummary: RayCasting
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
